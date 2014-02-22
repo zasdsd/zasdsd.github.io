@@ -4,7 +4,7 @@
   <subtitle><![CDATA[技术宅,diy电子设备,编程,黑苹果]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://zmj.taojinroad.com/"/>
-  <updated>2014-02-13T09:16:09.115Z</updated>
+  <updated>2014-02-22T07:12:55.155Z</updated>
   <id>http://zmj.taojinroad.com/</id>
   
   <author>
@@ -15,19 +15,41 @@
   <generator uri="http://zespia.tw/hexo/">Hexo</generator>
   
   <entry>
+    <title><![CDATA[黑苹果PCI网卡]]></title>
+    <link href="http://zmj.taojinroad.com/2014/02/22/mac/"/>
+    <id>http://zmj.taojinroad.com/2014/02/22/mac/</id>
+    <published>2014-02-22T06:19:34.000Z</published>
+    <updated>2014-02-22T07:12:43.000Z</updated>
+    <content type="html"><![CDATA[<p>今天搞黑苹果，发现82540em 网卡是神卡，ros ，esxi 兼容，感觉就是神卡。去下载其他的驱动，还挺痛苦的。</p>
+]]></content>
+    
+    
+      <category term="黑苹果" scheme="http://zmj.taojinroad.com/tags/%E9%BB%91%E8%8B%B9%E6%9E%9C/"/>
+    
+      <category term="网卡" scheme="http://zmj.taojinroad.com/tags/%E7%BD%91%E5%8D%A1/"/>
+    
+      <category term="黑苹果" scheme="http://zmj.taojinroad.com/categories/%E9%BB%91%E8%8B%B9%E6%9E%9C/"/>
+    
+      <category term="网卡" scheme="http://zmj.taojinroad.com/categories/%E9%BB%91%E8%8B%B9%E6%9E%9C/%E7%BD%91%E5%8D%A1/"/>
+    
+  </entry>
+  
+  <entry>
     <title><![CDATA[cocoa2d 环境搭建]]></title>
     <link href="http://zmj.taojinroad.com/2014/02/13/cocoa2d/"/>
     <id>http://zmj.taojinroad.com/2014/02/13/cocoa2d/</id>
     <published>2014-02-13T07:06:48.000Z</published>
-    <updated>2014-02-13T09:16:02.000Z</updated>
+    <updated>2014-02-13T09:19:23.000Z</updated>
     <content type="html"><![CDATA[<h3 id="-">下载</h3>
 <p><a href="http://www.cocos2d-x.org/" target="_blank">http://www.cocos2d-x.org/</a> 
-<a id="more"></a>
-笔者现在使用的是3.0 beta 版本，需要创建的话，请到</p>
+<a id="more"></a></p>
+<p>笔者的环境是 mac操作系统，因为自己的系统已经有python ，如没有请
+请确定自己的机子看看有没python环境 执行 </p>
+<pre><code>python --version
+</code></pre><p>安装python 环境请自行百度之，太多了。</p>
+<p>笔者现在使用的是3.0 beta 版本，需要创建的话，请到</p>
 <pre><code>cocos2d-x-3.0beta/tools/project-creator
 执行create_project.py，选自己想要创建的类型
-</code></pre><p>请确定自己的机子看看有没python环境 执行 </p>
-<pre><code>python --version
 </code></pre>]]></content>
     <summary type="html"><![CDATA[<h3 id="-">下载</h3>
 <p><a href="http://www.cocos2d-x.org/" target="_blank">http://www.cocos2d-x.org/</a> 
